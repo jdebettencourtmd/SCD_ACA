@@ -47,7 +47,7 @@ review.
 │   └── DATA_DICTIONARY.md                           variable definitions and missingness
 ├── R/
 │   ├── 00_setup_functions.R          import, preparation, shared ITS/DiD functions, plot theme
-│   ├── 01_secondary_ED_analysis.R      ED-stream payer mix and all utilization outcomes
+│   ├── 01_primary_ED_analysis.R      ED-stream payer mix and all utilization outcomes
 │   ├── 02_payer_mix_analysis.R       inpatient-only and combined ED+inpatient payer mix
 │   └── 03_age_stratified_analysis.R  age-band effect modification (GEE)
 ├── output/
@@ -234,7 +234,7 @@ If you use these data, please cite both this repository and the original CDC SCD
 
 ## Authors
 
-Joseph deBettencourt, MD
+Joseph deBettencourt, MD; Monica Hulbert, MD; Natasha M. Archer, MD —
 Dana-Farber/Boston Children's Cancer and Blood Disorders Center.
 Corresponding author: joseph_debettencourt@dfci.harvard.edu
 
@@ -247,6 +247,6 @@ Blood Disorders. As well as the Computational Genomics Summer Institute (CGSI) f
 ## Use of AI assistance
 
 Claude (Anthropic; Sonnet 4.6) was used for R code debugging and code cleaning, and as a
-data-quality check to confirm that the compiled .csv matched the source CDC sheets, it was also used to compile this README
-document. The study authors independently reviewed that comparison and all code, and take full responsibility for
+data-quality check to confirm that the compiled .csv matched the source CDC sheets. The study
+authors independently reviewed that comparison and all code, and take full responsibility for
 its correctness.
