@@ -47,7 +47,7 @@ review.
 │   └── DATA_DICTIONARY.md                           variable definitions and missingness
 ├── R/
 │   ├── 00_setup_functions.R          import, preparation, shared ITS/DiD functions, plot theme
-│   ├── 01_primary_ED_analysis.R      ED-stream payer mix and all utilization outcomes
+│   ├── 01_Secondary_ED_analysis.R      ED-stream payer mix and all utilization outcomes
 │   ├── 02_payer_mix_analysis.R       inpatient-only and combined ED+inpatient payer mix
 │   └── 03_age_stratified_analysis.R  age-band effect modification (GEE)
 ├── output/
